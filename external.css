@@ -1,19 +1,22 @@
 body{
-    background-color: antiquewhite;
+    background-color:#dc46a8 ;
 }
 h1{
     text-align: center;
     text-indent: 100px;
-    text-shadow: 10px 15px wheat;
-    background-color: darkolivegreen;
-    font-family: -apple-system;
+    text-shadow: 1px 3px wheat;
+    background-color: hotpink;
+    font-family: 'Rubik Dirt', cursive;
     letter-spacing: 10px;
     word-spacing: 15px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    color:rgb(25, 25, 25);
 }
 h2{
     font-size: 30px;
-    background-color: azure;
-    font-family: times new roman;
+    background-color:rgb(255, 0, 149);
+    font-family: 'Salsa', cursive;
 }
 p{
     background-color: plum;
@@ -21,43 +24,52 @@ p{
     margin: auto;
 }
 ul{
-    background-color: aqua;
-    text-align: center;
+    background-color: rgb(255, 0, 234);
     list-style: none;
-    text-decoration: line-through;
     text-transform: uppercase;
+    font-family: 'Salsa', cursive;
+    color: rgb(25, 25, 25);
+    border: 5px inset rgb(195, 251, 10);
+    padding: 30px 40px 50px;
 }
 .list-1{
     font-size: 25px;
+    font-style: oblique;
+    font-variant: small-caps;
 }
 .list{
     font-family: georgia;
-    background-color: palevioletred;
+    background-color: paleturquoise;
+    font-style: oblique;
+    font-size: 25px;
+    font-family: 'Salsa', cursive;
 }
 .listing{
     font-style: italic;
-    background-color: blueviolet;
+    background-color: peru;
+    font-size: 20px;
 }
 #flower{
-    font-size: 10px;
+    font-size: 20px;
     font-family: -apple-system;
 }
 #paint{
-    font-size: 10px;
+    font-size: 20px;
     font-family: -apple-system;
 }
 #sing{
-    font-size: 10px;
+    font-size: 20px;
     font-family: -apple-system;
 }
 #wing{
-    font-size: 10px;
+    font-size: 20px;
     font-family: -apple-system;
 }
 .one{
     text-align: center;
     background-color: hotpink;
     text-indent: 100px;
+    font-family: 'Salsa', cursive;
 }
 .old{
     font-style: italic;
@@ -66,10 +78,60 @@ ul{
     text-align: center;
 }
 .name{
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px dotted rgb(25, 25, 25);
+}
+.name1{
+    border: 5px dotted rgb(25, 25, 25); 
 }
 a{
     text-decoration: none;
     text-indent: 100px;
+    font-family: 'Rubik Dirt', cursive;
+    color: rgb(117, 0, 128);
+    font-size: large;
+    display: block;
+    text-shadow: 1px 1px darkgray;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 5px inset pink;
+}
+a:hover {
+    text-decoration: dotted;
+    text-transform: uppercase;
+    color: purple;
+    background-color: darkkhaki;
+}
+a:visited{
+    text-decoration: line-through;
+    text-transform: capitalize;
+    background-color: black;
+    color: brown;
+}
+a:active{
+    font-weight: bolder;
+    text-decoration: double;
+    background-color: bisque;
+    color: aqua;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+}
+table, th, td{
+   border: 5px inset  #AF0171;
+   
+} 
+thead{
+    background-color:#790252;
+}
+tbody tr:nth-child(odd){
+    background-color: #ffc0cb;
+}
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
 }

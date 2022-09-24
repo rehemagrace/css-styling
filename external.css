@@ -135,3 +135,9 @@ tbody tr:nth-child(odd){
     width: 60%;
     margin: 0 auto;
 }
+.gradient{
+    width: 400px;
+    height: 500px; 
+    background-color: pink;
+    background-image: linear-gradient(to left, #EB40E4, #41114D);
+}
